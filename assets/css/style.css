@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 340px;
+}
+
+.login-area {
+    height: 64vh;
+    width: 100%;
+    margin-top: 32px;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.username {
+    margin: 4px 32px;
+    padding: 12px 8px;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    height: 40px;
+}
+
+.botao-entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #0095f6;
+    color: #f7f7f7;
+    text-decoration: none;
+    margin-top: 16px;
+    padding: 8px;
+    width: 240px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.botao-entrar a {
+    text-decoration: none;
+}
+
+.ou {
+    font-size: 0.8rem;
+    margin-top: 16px;
+    color: #a8a8a8;
+    text-transform: uppercase;
+}
+
+.facebook {
+    display: flex;
+    margin-top: 16px;
+}
+
+.facebook a {
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+}
+
+.entrar-facebook {
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+    width: 200px;
+    padding: 4px;
+}
+
+.entrar-facebook::before {
+    content: "";
+}
+
+.esqueceu-senha {
+    text-decoration: none;
+    margin-top: 16px;
+    font-size: 0.8rem;
+    color: #333333;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-top: 16px;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    background-color: #fff;
+}
+
+.botao-cadastro {
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.app {
+    margin-top: 24px;
+
+}
+
+.app-titulo {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.app-download-area {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px;
+}
+
+.app-download-area a {
+    width: auto;
+    height: 80px;
+    
+}
+
+.app-download-area a img {
+    width: auto;
+    height: 40px;
+}
